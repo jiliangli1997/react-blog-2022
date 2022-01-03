@@ -1,0 +1,54 @@
+.register {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: 
+  /* linear-gradient(rgba(255, 255, 255, 0.5)), */ url("https://images.squarespace-cdn.com/content/v1/55c8073fe4b02a74ffe18e48/1628556762510-1SDLZZQJ9Z58N1NVUQ79/ddpcpd5-2652a1e9-8d33-46d4-95b7-84fccb3a8694.jpg?format=1500w");
+  background-size: cover;
+}
+
+.registerTitle {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.registerForm {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+}
+
+.registerInput {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.registerBtn {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.loginBtn {
+  font-size: 15px;
+  position: absolute;
+  top: 80px;
+  right: 40px;
+  cursor: pointer;
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}

@@ -1,0 +1,28 @@
+.header {
+  font-family: "Licorice", cursive;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 15%;
+  font-size: 50px;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 20%;
+  font-size: 120px;
+}
+
+.headerImg {
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+}

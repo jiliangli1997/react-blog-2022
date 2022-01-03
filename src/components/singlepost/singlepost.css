@@ -1,0 +1,96 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 600px;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+.singlePostTitle {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 10px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 20px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon.far.fa-edit {
+  color: teal;
+}
+
+.singlePostIcon.far.fa-trash-alt {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #b39656;
+  font-family: "Satisfy", cursive;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.singlePostTitleInput {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 10px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+}
+
+.singlePostDescInput {
+  border: none;
+}
+
+.singlePostDescInput:focus {
+  outline: none;
+}
+
+.singlePostButton {
+  border: none;
+  background-color: teal;
+  width: 100px;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}
